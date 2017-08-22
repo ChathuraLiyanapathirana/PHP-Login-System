@@ -6,7 +6,7 @@ include_once './header.php';
 
 <section>
     <div class="main-wrapper">
-        <form>
+        <form action="include/signup.inc.php" method="POST">
             <h3 class="txt-cntr">Sign Up</h3>
             <div class="form-group">
                 <input type="text" name="fname" placeholder="First Name" class="form-control">
