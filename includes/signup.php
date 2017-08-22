@@ -1,7 +1,7 @@
 <?php
 
 //if every thing in this page belogs to php then does not want to close php tag
-if (isset($_POST('submit'))) {
+if (isset($_POST['submit'])) {
 
     //include the db connection
     include_once './dbh.inc';
@@ -24,4 +24,3 @@ if (isset($_POST('submit'))) {
 } else {
     
 }
-
