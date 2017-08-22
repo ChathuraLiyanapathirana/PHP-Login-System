@@ -40,8 +40,8 @@ if (isset($_POST['submit'])) {
                     header("Location: ../signup.php");
                     exit();
                 } else {
-                    $password_hash = password_hash($pWd, PASSWORD_DEFAULT);
-                    $insertQuiery = "insert into user(user_fname, user_lname, user_email, user_uid, user_pwd) values('$fName', '$lName', '$eMail', '$uName', '$password_hash');";
+//                    $hashPass = password_hash($pWd, PASSWORD_DEFAULT);
+                    $insertQuiery = "insert into user(user_fname, user_lname, user_email, user_uid, user_pwd) values('$fName', '$lName', '$eMail', '$uName', '$pWd');";
                     mysqli_query($connection, $insertQuiery);
                     header("Location: ../signup.php?signup=success");
                     exit();
