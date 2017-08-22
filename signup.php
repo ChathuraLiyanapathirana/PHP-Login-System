@@ -27,7 +27,7 @@ include_once './header.php';
                 <input type="text" name="pwd" placeholder="Confirm Password" class="form-control">
             </div>
             <div class="form-group txt-cntr">
-                <button type="submit" class="btn btn-success">Sign Up!</button>
+                <button type="submit" name="submit" class="btn btn-success">Sign Up!</button>
             </div>
         </form>
     </div>
