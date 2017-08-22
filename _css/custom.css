@@ -16,3 +16,6 @@ and open the template in the editor.
 .txt-cntr{
     text-align: center;
 }
+section{
+    margin-top: 70px !important;
+}

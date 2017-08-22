@@ -16,7 +16,7 @@ and open the template in the editor.
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-default">
+            <nav class="navbar navbar-inverse">
                 <div class="container-fluid">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -45,11 +45,11 @@ and open the template in the editor.
                                 </ul>
                             </li>
                         </ul>
-                        <form class="navbar-form navbar-right">
+                        <form class="navbar-form navbar-left" action="includes/signinlogic.php" method="">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="UserName/Email">
-                                <input type="text" class="form-control" placeholder="Password">
-                                <button type="submit" class="btn btn-info">Login</button>
+                                <input type="text" class="form-control" name="uname" placeholder="UserName/Email">
+                                <input type="text" class="form-control" name="pwd" placeholder="Password">
+                                <button type="submit" name="submit" class="btn btn-info">Login</button>
                             </div>
                             <a class="h6 info" href="signup.php">Sign Up</a>
                         </form>
